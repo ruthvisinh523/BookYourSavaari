@@ -1,0 +1,156 @@
+﻿@model LoginViewModel
+@{
+
+	 Layout = "HomeDefultLayout";
+
+}
+
+
+
+<!--Inner Banner Section Start-->
+<div class="tj-inner-banner">
+	<div class="container">
+		<h2>Login</h2>
+	</div>
+</div>
+<!--Inner Banner Section End-->
+<!--Breadcrumb Section Start-->
+<div class="tj-breadcrumb">
+	<div class="container">
+		<ul class="breadcrumb-list">
+			<li><a >Home</a></li>
+			<li class="active">Login</li>
+		</ul>
+	</div>
+</div>
+<!--Breadcrumb Section End-->
+<!--Register Section Start-->
+<section class="tj-register">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="tj-tabs">
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="active"><a asp-action="Login" asp-controller="Login" data-toggle="tab">Login</a></li>
+						<li ><a asp-action="Registration" asp-controller="User" data-toggle="tab">Register</a></li>
+					</ul>
+				</div>
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<div class="col-md-6 col-sm-6">
+							<div class="login-cta">
+								<ul class="cta-list">
+									<li>
+										<span class="icon-mail-envelope icomoon"></span>
+										<div class="cta-info">
+											<strong>30 Days Money Back Guarantee</strong>
+											<p>A more recently with desktop softy like aldus pages maker still versions have evolved.</p>
+										</div>
+									</li>
+									<li>
+										<span class="icon icon-Headset"></span>
+										<div class="cta-info">
+											<strong>24/7 Customer Support</strong>
+											<p>A more recently with desktop softy like aldus pages maker still versions have evolved.</p>
+										</div>
+									</li>
+									<li>
+										<span class="icon-lock icomoon"></span>
+										<div class="cta-info">
+											<strong>100% Secure Payment</strong>
+											<p>A more recently with desktop softy like aldus pages maker still versions have evolved.</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<form class="login-frm" method="POST">
+								<div class="field-holder">
+									<span class="far fa-envelope"></span>
+									<input type="email" name="login_email" placeholder="Enter your Email Address">
+								</div>
+								<div class="field-holder">
+									<span class="fas fa-lock"></span>
+									<input type="password" name="name" placeholder="Password">
+								</div>
+								<a href="#" class="forget-pass">Forget Password?</a>
+								<button type="submit" class="reg-btn">Login <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+								<button type="submit" class="facebook-btn">Login with Facebook <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+								<button type="submit" class="google-btn">Login with Google <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+							</form>
+						</div>
+					</div>
+					<div class="tab-pane " id="register">
+						<div class="col-md-6 col-sm-6">
+							<div class="reg-cta">
+								<ul class="cta-list">
+									<li>
+										<span class="icon-mail-envelope icomoon"></span>
+										<div class="cta-info">
+											<strong>30 Days Money Back Guarantee</strong>
+											<p>A more recently with desktop softy like aldus pages maker still versions have evolved.</p>
+										</div>
+									</li>
+									<li>
+										<span class="icon icon-Headset"></span>
+										<div class="cta-info">
+											<strong>24/7 Customer Support</strong>
+											<p>A more recently with desktop softy like aldus pages maker still versions have evolved.</p>
+										</div>
+									</li>
+									<li>
+										<span class="icon-lock icomoon"></span>
+										<div class="cta-info">
+											<strong>100% Secure Payment</strong>
+											<p>A more recently with desktop softy like aldus pages maker still versions have evolved.</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--Register Section End-->
+<!--Call To Action Content Start-->
+<section class="tj-cal-to-action">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<div class="cta-box">
+					<img src="~/assets/images/cta-icon1.png" alt="" />
+					<div class="cta-text">
+						<strong>Best Price Guaranteed</strong>
+						<p>A more recently with desktop softy  like aldus page maker.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<div class="cta-box">
+					<img src="~/assets/images/cta-icon2.png" alt="" />
+					<div class="cta-text">
+						<strong>24/7 Customer Care</strong>
+						<p>A more recently with desktop softy  like aldus page maker.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<div class="cta-box">
+					<img src="~/assets/images/cta-icon3.png" alt="" />
+					<div class="cta-text">
+						<strong>Easy Bookings</strong>
+						<p>A more recently with desktop softy  like aldus page maker.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--Call To Action Content End-->
